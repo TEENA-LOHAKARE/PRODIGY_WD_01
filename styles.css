@@ -1,0 +1,281 @@
+
+body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    margin: 0;
+    padding: 0;
+    line-height: 1.5;
+    background-color: #bdcbd1b0; 
+    color: #161313; 
+}
+
+a {
+    color: #95bee9; 
+    text-decoration: none;
+}
+
+a:hover {
+    text-decoration: underline;
+}
+
+
+header {
+    background-color: #ade7c1; 
+    color: #c23535; 
+    padding: 10px 0;
+    text-align: center;
+}
+
+header nav ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+header nav ul li {
+    display: inline;
+    margin-right: 20px;
+}
+
+header nav ul li a {
+    color: #660456;
+    text-decoration: none;
+}
+
+
+main {
+    padding: 20px;
+}
+
+
+#home {
+    text-align: center;
+    background-color: #ffffff; 
+}
+
+.home-content {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding: 50px 20px;
+    background-color: #fff; 
+    box-shadow: 0 0 10px rgba(0,0,0,0.1);
+    margin-bottom: 20px;
+}
+
+.home-content .text-content {
+    max-width: 900px;
+    margin: 0 auto;
+}
+
+.home-content h1 {
+    font-size: 1.5em;
+    margin-bottom: 20px;
+    color: #333;
+}
+
+.home-content p {
+    font-size: 1.5em;
+    color: #666;
+    margin-bottom: 20px;
+}
+
+.buttons .button {
+    display: inline-block;
+    background-color: #161515;
+    color: #f3eded;
+    border: none;
+    padding: 10px 20px;
+    text-decoration: none;
+    margin-right: 10px;
+    margin-top: 10px;
+    transition: background-color 0.3s;
+}
+
+.buttons .button:hover {
+    background-color: #555;
+}
+
+.image-content img {
+    max-width: 100%;
+    height: auto;
+}
+
+#menu {
+    text-align: center;
+    background-color: #cda2a2; 
+}
+
+#menu h2 {
+    font-size: 3em;
+    color: #333;
+}
+
+.menu-cards {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    max-width: 1000px;
+    margin: 0 auto;
+    margin-top: 20px;
+}
+
+.menu-card {
+    width: 45%;
+    background-color: #f2f2f2; 
+    padding: 20px;
+    margin-bottom: 20px;
+    box-shadow: 0 0 10px rgba(0,0,0,0.1);
+    transition: transform 0.3s;
+}
+
+.menu-card:hover {
+    transform: translateY(-5px);
+}
+
+.menu-card .icon {
+    margin-bottom: 10px;
+}
+
+.menu-card h3 {
+    color: #333;
+    font-size: 1.5em;
+    margin-bottom: 10px;
+}
+
+.menu-card p {
+    color: #666;
+    font-size: 1.1em;
+    margin-bottom: 15px;
+}
+
+.menu-link {
+    color: #007bff;
+    text-decoration: none;
+    display: block;
+    font-size: 1.1em;
+    margin-top: 10px;
+    transition: color 0.3s;
+}
+
+.menu-link:hover {
+    text-decoration: underline;
+}
+
+#recipes {
+    text-align: center;
+    background-color: #fadbe5; 
+}
+
+#recipes h2 {
+    font-size: 2em;
+    color: #650665;
+}
+
+.recipes {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    margin-top: 20px;
+}
+
+.recipe-main {
+    width: 60%;
+    margin-bottom: 20px;
+    padding: 20px;
+    background-color: #ccd9e8; 
+    box-shadow: 0 0 10px rgba(0,0,0,0.1);
+}
+
+.recipe-main img {
+    width: 100%;
+    height: auto;
+}
+
+.recipe-main h3 {
+    color: #333;
+    font-size: 1.5em;
+    margin-bottom: 10px;
+}
+
+.recipe-main p {
+    color: #666;
+    font-size: 1.1em;
+}
+
+.recipe-list {
+    width: 35%;
+    display: flex;
+    flex-direction: column;
+    margin-left: 20px;
+}
+
+.recipe-item {
+    background-color: #f2f2f2; 
+    padding: 20px;
+    margin-bottom: 10px;
+    box-shadow: 0 0 10px rgba(0,0,0,0.1);
+    transition: transform 0.3s;
+}
+
+.recipe-item:hover {
+    transform: translateY(-5px);
+}
+
+.recipe-item h3 {
+    color: #333;
+    font-size: 1.3em;
+    margin-bottom: 5px;
+}
+
+.recipe-item p {
+    color: #666;
+    font-size: 1em;
+}
+
+
+#contact {
+    text-align: center;
+    background-color: #97cbf9; 
+}
+
+#contact h2 {
+    font-size: 2em;
+    color: #333;
+}
+
+#contact p {
+    font-size: 1.1em;
+    color: #666;
+    margin-bottom: 20px;
+}
+
+.contact-info p {
+    font-size: 1.1em;
+    color: #333;
+    margin-bottom: 10px;
+}
+
+.social-icons {
+    margin-top: 20px;
+}
+
+.social-icon {
+    display: inline-block;
+    color: #373434;
+    margin-right: 10px;
+    font-size: 1.5em;
+    transition: color 0.3s;
+}
+
+.social-icon:hover {
+    color: #007bff;
+}
+
+
+footer {
+    background-color: #f6925c;
+    color: #fff; 
+    text-align: center;
+    padding: 10px 0;
+    margin-top: 20px;
+}
